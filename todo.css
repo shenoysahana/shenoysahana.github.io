@@ -15,20 +15,12 @@
 .app{
     width: 60%;
 }
-@media (max-width:700px) {
+@media (max-width:700px) and (orientation: landscape){
     .app{
         width: 100vw;
 
     }   
 }
-@media (orientation: landscape) {
-    .app{
-     width:100%;
-    }
-  }
-
-
-
 .app h1{
     font-size: 3em;
     text-align: center;
