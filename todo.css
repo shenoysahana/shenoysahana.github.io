@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+*{
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    background-color: #e1e3ea;
+    height: 100vh;
+    font-family: sans-serif;
+    
+}
+.app{
+    width: 60%;
+    border-radius: 3px;
+}
+@media (max-width:800px) {
+    .app{
+        width: 100%;
+    }
+   
+}
+.app h1{
+    font-size: 3em;
+    text-align: center;
+    padding: 20px 20px 0 0 ;
+    background-color: #f14c62d3;
+    border-radius: 4px ;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+form{
+    display: flex;
+    width: 100%;
+}
+.app form input{
+    border: none;
+    width: 90%;
+    padding: 10px;
+    font-size: 18px;
+    height: 42px;
+}
+.app form button{
+    border: none;
+    color: white;
+    background-color: #1dd2af;
+    font-size: 25px;
+    font-weight: 600;
+    height: 42px;
+    width: 10%;
+}
+.app ul{
+    padding: 0;
+    border:none;
+    list-style-type: none;
+
+    background-color:#8080b9;
+}
+.app ul li{
+    padding:10px;
+    color:white;
+    border-bottom: 2px solid green;
+}
+.check{
+    width: 2em;
+    height: 1em;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+.check:checked {
+    background-color: #1dd2af;
+  }
+.task {
+    background-color:#8080b9;
+    width: 90%;
+    font-size: 18px;
+    border: none;
+    color: white;
+
+  }
+  
+  .task:focus {
+    outline: none;
+    color:orange;
+    font-size:2rem;
+  }
+  
+
+  .app ul li i{
+    cursor: pointer;
+   float: right;
+   
+
+  }
+  .app ul li i:hover {
+    color: rgb(255, 82, 82);
+ 
+  }
+
+  .completed {
+    color: rgba(192, 192, 192, 0.8);
+    text-decoration: line-through;
+  }
+  
+
