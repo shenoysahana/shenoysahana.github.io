@@ -19,7 +19,14 @@
 @media (max-width:800px) {
     .app{
         width: 100%;
+
     }
+    .app ul li i{
+       cursor: pointer;
+       float: right;
+       
+    
+      }
    
 }
 .app h1{
