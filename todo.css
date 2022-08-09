@@ -14,8 +14,7 @@
 }
 .app{
     width: 60%;
-    border-radius: 5px;
-  }
+}
 @media (max-width:700px) {
     .app{
         width: 90%;
@@ -58,20 +57,19 @@ form{
 .app ul{
     padding: 0;
     border:none;
-    list-style-type: none;
+    list-style: none;
     background-color:#8080b9;
 }
 .app ul li{
-    display: flex;
-    width: 100%;
+
     padding:10px;
     color:white;
 }
 .check{
-
-    width: 10%;
-    height: 1em;
+    width: 0.8em;
+    height: 0.8em;
     cursor: pointer;
+    border-radius: 50%;
     background-color: white;
     border: 1px solid rgb(255, 255, 255);
 }
@@ -79,7 +77,8 @@ form{
     background-color: #1dd2af;
   }
 .task {
-    width:80%;
+    padding: 0 10px;
+    width: fit-content;
     background-color:#8080b9;
     font-size: 18px;
     border: none;
@@ -95,7 +94,7 @@ form{
   
 
   .app ul li i{
-    width: 10%;
+   float: right;
     cursor: pointer;
    
 
