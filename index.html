@@ -10,13 +10,32 @@
   
 </head>
 <body>
+    <nav id="navigation">
+        <select id="nav-select">
+            <option name="nav-cat" value="all">All</option>
+            <option name="nav-cat" value="personal">Personal</option>
+            <option name="nav-cat" value="office">Office</option>
+            <option name="nav-cat" value="home">Home</option>
+            <option name="nav-cat" value="completed">Completed</option>
+
+        </select>
+        <p id="select-res"></p>
+    </nav>
     <div class="container">
         <div class="app">
             <h1>Shopping Cart</h1>
             <form>
                 <input type="text" placeholder="Add the task">
+                <select id="select">
+                    <!-- <option>select your category</option> -->
+                    <option name="category"value="personal">personal</option>
+                    <option name="category"value="office">office</option>
+                    <option name="category"value="home">Home</option>
+                </select>
                 <button type="submit">&plus;</button>
             </form>
+
+
             <ul>
                 <!-- <li><input type="checkbox" onclick="taskComplete(this)"class="check">
                 <input type="text" value="my-task" class="task" onfocus="getCurrentTask(this)" onblur="editTask(this)">
@@ -29,6 +48,6 @@
             </ul>
           </div>
     </div>
-    <script src="to.js"></script>
+    <script src="t2.js"></script>
 </body>
 </html>
