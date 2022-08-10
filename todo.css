@@ -79,7 +79,7 @@ form{
     background-color:#8080b9;   
 }
 .app li:hover{
-    box-shadow: 5px 5px green;
+    box-shadow: 5px 5px red;
     color:orange;
 }
 .app ul li{
