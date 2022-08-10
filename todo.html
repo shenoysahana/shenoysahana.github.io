@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="shortcut icon" href="Shopping_cart_icon.svg.png" type="image/x-icon">
+    <link rel="stylesheet" href="todo.css">
+  
+</head>
+<body>
+    <nav id="navigation">
+        <select id="nav-select">
+            <option name="nav-cat" value="all">All</option>
+            <option name="nav-cat" value="personal">Personal</option>
+            <option name="nav-cat" value="office">Office</option>
+            <option name="nav-cat" value="home">Home</option>
+            <option name="nav-cat" value="completed">Completed</option>
+
+        </select>
+        <p id="select-res"></p>
+    </nav>
+    <div class="container">
+        <div class="app">
+            <h1>Shopping Cart</h1>
+            <form>
+                <input type="text" placeholder="Add the task">
+                <select id="select">
+                    <!-- <option>select your category</option> -->
+                    <option name="category"value="personal">personal</option>
+                    <option name="category"value="office">office</option>
+                    <option name="category"value="home">Home</option>
+                </select>
+                <button type="submit">&plus;</button>
+            </form>
+
+
+            <ul>
+                <!-- <li><input type="checkbox" onclick="taskComplete(this)"class="check">
+                <input type="text" value="my-task" class="task" onfocus="getCurrentTask(this)" onblur="editTask(this)">
+                <i class="fa fa-trash red-color" onclick="removeTask(this)"></i></li> -->
+                <!-- Each list item contains 3 elements
+                    1.checkbox ->to mark completed
+                    2.input text ->to show the task
+                    3.delete button ->to delete the task-->
+
+            </ul>
+          </div>
+    </div>
+    <script src="t2.js"></script>
+</body>
+</html>
